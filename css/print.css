@@ -1,0 +1,220 @@
+@media print {
+    main {
+        max-width: 100% !important;
+        margin: 0;
+        box-shadow: none;
+    }
+
+    .kennedy-image img,
+    .alapitas img,
+    .invention-mainpicture img {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media print {
+    #inventions img {
+        display: none !important;
+    }
+}
+
+@media print {
+    #projektek img {
+        display: none !important;
+    }
+
+    #projektek .row {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #projektek .col-md-6 {
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+}
+
+@media print {
+    #projektetek img {
+        display: none !important;
+    }
+
+    main {
+        max-width: 100% !important;
+    }
+}
+
+#form label {
+    font-weight: bold;
+    color: black;
+}
+
+@media print {
+
+    header,
+    footer,
+    #accessibilityButton,
+    .carousel,
+    .more-sites,
+    #video {
+        display: none;
+    }
+
+    #carousel-print {
+        display: block !important;
+        position: static !important;
+        height: auto !important;
+        width: auto !important;
+    }
+
+    #carousel-print {
+        display: flex !important;
+    }
+
+    #carousel-print img {
+        width: 20%;
+        margin: 0.313rem;
+    }
+}
+
+@media print {
+    #form {
+        display: none !important;
+    }
+}
+
+@media print {
+    #projects-print {
+        display: block !important;
+        position: static !important;
+        height: auto !important;
+        width: auto !important;
+    }
+
+    #projects-print {
+        display: flex !important;
+    }
+
+    #projects-print img {
+        width: 20%;
+        margin: 0.313rem;
+    }
+}
+
+@media print {
+    #inventions-printing {
+        display: block !important;
+        position: static !important;
+        height: auto !important;
+        width: auto !important;
+    }
+
+    #inventions-printing {
+        display: flex !important;
+    }
+
+    #inventions-printing img {
+        width: 15%;
+        margin: 0.313rem;
+    }
+}
+
+.print-visible {
+
+    font-size: 0.45rem;
+
+}
+
+
+
+h1 {
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-size: 1.15rem;
+}
+
+h3 {
+    font-size: 1rem;
+    color: black !important;
+}
+
+p {
+    font-size: 0.875rem;
+}
+
+@media print {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .col-md-6,
+    .image-container,
+    .content-container {
+        width: 50%;
+    }
+
+    .image-container img {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media print {
+    #inventions .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #inventions .col-md-6 {
+        width: 100%;
+    }
+
+    #inventions .col-md-6 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media print {
+    #table table {
+        font-size: 0.75rem;
+        width: 80%;
+        margin-bottom: 0.313rem;
+    }
+}
+
+@media print {
+    #form {
+        font-size: 0.625rem;
+    }
+
+    #form label,
+    #form input,
+    #form textarea {
+        font-size: 0.625rem;
+    }
+
+    #form input[type="radio"],
+    #form input[type="checkbox"] {
+        transform: scale(0.8);
+    }
+
+    #form input[type="reset"],
+    #form input[type="submit"] {
+        display: none;
+    }
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}

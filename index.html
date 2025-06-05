@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Szabó Mózes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Főoldal - A NASA világa</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="css/accessibility.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/default.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/print.css"
+      media="print"
+    />
+
+    <link rel="icon" href="./media/images/icon.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">NASA</div>
+      <a href="#content" class="jumptocontent">Ugrás a tartalomra</a>
+
+      <nav>
+        <ul>
+          <li><a href="#content" class="active">Főoldal</a></li>
+          <li><a href="history.html">A NASA Története</a></li>
+          <li><a href="inventions.html">Találmányok</a></li>
+          <li><a href="projects.html">Jövőbeli Projektek</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content">
+      <button id="accessibilityButton" onclick="toggleHighContrast()">
+        Nagy betűméret mód
+      </button>
+
+      <section id="intro">
+        <h1>NASA: Az Űrkutatás Meghatározó Szereplője</h1>
+
+        <!-- Bootstrap carousel -->
+
+        <figure class="carousel">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="./media/images/1.1o.jpg"
+                  ><img
+                    src="./media/thumbnails/1.1c.jpg"
+                    class="d-block w-100"
+                    alt="Egy asztronauta a NASA logó előtt"
+                /></a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="./media/images/1.2o.jpg"
+                  ><img
+                    src="./media/thumbnails/1.2c.jpg"
+                    class="d-block w-100"
+                    alt="Egy asztronauta kint a világűrben"
+                /></a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="./media/images/1.3o.jpg"
+                  ><img
+                    src="./media/thumbnails/1.3c.jpg"
+                    class="d-block w-100"
+                    alt="Egy csoportkép 13 személyről akik a NASA-nál dolgoznak"
+                /></a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="./media/images/1.4o.jpg"
+                  ><img
+                    src="./media/thumbnails/1.4c.jpg"
+                    class="d-block w-100"
+                    alt="Egy asztronauta kint a világűrben, miközben kapaszkodik"
+                /></a>
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </figure>
+
+        <p>
+          Számtalan ruházati terméken, mindennapos használati tárgyakon
+          találkozhatunk nap mint nap a
+          <strong><em>NASA „húsgolyónak”</em></strong> becézett logójával.
+          <span lang="en"
+            ><strong><em>Dwight D. Eisenhower</em></strong></span
+          >, az Egyesült Államok elnöke
+          <time datetime="1958-07-29"
+            ><strong><em>1958. július 29-én</em></strong></time
+          >
+          írta alá az űrügynökség létrehozásáról szóló
+          <strong><em>Nemzeti Légügyi és Űrhajózási törvényt</em></strong
+          >, amely értelmében
+          <time datetime="1958-10-01"
+            ><strong><em>1958. október 1-jén</em></strong></time
+          >
+          megkezdte működését a
+          <strong><em>Nemzeti Repülési és Űrhajózási Hivatal</em></strong
+          >, közismert nevén a <strong><em>NASA</em></strong
+          >.
+        </p>
+      </section>
+
+      <div id="carousel-print">
+        <img
+          src="./media/thumbnails/1.1c.jpg"
+          alt="Egy asztronauta a NASA logó előtt"
+        />
+        <img
+          src="./media/thumbnails/1.2c.jpg"
+          alt="Egy asztronauta kint a világűrben"
+        />
+        <img
+          src="./media/thumbnails/1.3c.jpg"
+          alt="Egy csoportkép 13 személyről akik a NASA-nál dolgoznak"
+        />
+        <img
+          src="./media/thumbnails/1.4c.jpg"
+          alt="Egy asztronauta kint a világűrben, miközben kapaszkodik"
+        />
+      </div>
+
+      <section id="history" class="print-visible">
+        <h2>Néhány fontosabb évszám:</h2>
+        <div class="year-block">
+          <div class="year-info">
+            <p><strong>NASA Alapítás éve:</strong></p>
+            <p class="year"><time datetime="1958">1958</time></p>
+          </div>
+        </div>
+
+        <div class="year-block">
+          <div class="year-info">
+            <p><strong>Első ember a világűrben:</strong></p>
+            <p class="year"><time datetime="1961">1961</time></p>
+          </div>
+        </div>
+
+        <div class="year-block">
+          <div class="year-info">
+            <p><strong>A Holdra szállás éve:</strong></p>
+            <p class="year"><time datetime="1969">1969</time></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="kennedy">
+        <div class="kennedy-content">
+          <div class="kennedy-image">
+            <img src="./media/images/kennedyo.jpg" alt="Kennedy Űrközpont" />
+          </div>
+          <div class="kennedy-text">
+            <h2><span lang="en">Kennedy</span> Űrközpont</h2>
+            <p>
+              A
+              <strong
+                ><em><span lang="en">Kennedy</span> Űrközpont</em></strong
+              >, a NASA 10 terepközpontjának egyike, több mint 90
+              magánszektorbeli partnerrel és közel 250 partnerségi
+              megállapodással rendelkező, többfelhasználós űrrepülőtér. A
+              kereskedelmi vállalatok jelenléte a
+              <strong
+                ><em
+                  >NASA <span lang="en">Kennedy</span> Űrközpontjában</em
+                ></strong
+              >
+              nagyobb, mint valaha, ami lehetővé teszi számunkra, hogy az
+              űrkutatás új korszakába lépjünk. Bár a
+              <span lang="en">Kennedy</span> az ügynökség fő indítóállomása, a
+              központban olyan létesítmények is működnek, amelyek olyan
+              innovatív megoldásokat kutatnak és fejlesztenek, amelyekre a
+              kormányzati és kereskedelmi űrvállalkozásoknak szükségük van a
+              <strong><em>Hold</em></strong> és a
+              <strong><em>Naprendszer</em></strong> más égitestjeinek felszínén
+              való munkához és élethez. További információk a
+              <a
+                href="https://www.nasa.gov/centers/kennedy/home/index.html"
+                target="_blank"
+                >NASA hivatalos oldalán</a
+              >.
+            </p>
+            <p>
+              Tudj meg többet a
+              <a href="https://www.nasa.gov/missions/" target="_blank"
+                >NASA missziókról</a
+              >
+              és fedezd fel a
+              <a href="https://www.spacex.com" target="_blank"
+                ><span lang="en">SpaceX</span></a
+              >
+              innovációit, amelyek szintén a
+              <span lang="en">Kennedy</span> Űrközpontban zajlanak.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="more-sites">
+        <h2>Tudj meg többet itt!</h2>
+        <div class="flex">
+          <article>
+            <figure>
+              <a href="./media/images/1o.jpg"
+                ><img
+                  src="./media/thumbnails/1c.jpg"
+                  alt="Egy asztronauta a Holdon"
+              /></a>
+            </figure>
+            <h3>A NASA Története</h3>
+            <p>
+              1958 áprilisában <span lang="en">Eisenhower</span> a Kongresszus
+              elé vitte a javaslatot: egy nemzeti űrprogram fejlesztéséért és
+              koordinálásért felelős ügynökség...
+            </p>
+            <p>
+              <a href="./history.html" class="click-and-othersite"
+                >Részletesebben a történetéről</a
+              >
+            </p>
+          </article>
+
+          <article>
+            <figure>
+              <a href="./media/images/2o.jpg"
+                ><img
+                  src="./media/thumbnails/2c.jpg"
+                  alt="Egy asztronauta a konyhában"
+              /></a>
+            </figure>
+            <h3>Találmányok</h3>
+            <p>
+              A mindennapok egymásutánjában az ember észre sem veszi, mennyi
+              nagyszerű eszköz veszi körül, amelyek kényelmét szolgálják. Arra
+              pedig különösen...
+            </p>
+            <p>
+              <a href="./inventions.html" class="click-and-othersite"
+                >Részletesebben a találmányokról</a
+              >
+            </p>
+          </article>
+
+          <article>
+            <figure>
+              <a href="./media/images/3o.jpg"
+                ><img
+                  src="./media/thumbnails/3c.jpg"
+                  alt="Egy felderítőeszköz a Marson"
+              /></a>
+            </figure>
+            <h3>Jövőbeli Projektek</h3>
+            <p>
+              Az <span lang="en">Artemis</span> küldetésekkel a NASA az első nőt
+              és az első színesbőrű embert juttatja a Holdra, és innovatív
+              technológiák segítségével minden...
+            </p>
+            <p>
+              <a href="./projects.html" class="click-and-othersite"
+                >Részletesebben a projektekről</a
+              >
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-nasa">
+      <p>&copy; 2024 NASA. Minden jog fenntartva.</p>
+    </footer>
+  </body>
+</html>

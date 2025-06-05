@@ -1,0 +1,21 @@
+a,
+h1,
+h2,
+p {
+    font-size: 1.25em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 112.5%;
+    color: #000000;
+    padding: 0.188em;
+}

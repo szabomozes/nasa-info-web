@@ -1,0 +1,212 @@
+body a:visited:not(header a) {
+    color: #5792e6;
+    text-decoration: underline;
+}
+
+body a:active:not(header a) {
+    color: #081dff;
+    text-decoration: underline;
+}
+
+
+.high-contrast {
+    font-size: 200%;
+    color: #000;
+    background-color: #FFD700;
+    font-weight: bold;
+}
+
+.high-contrast nav {
+    background-color: #000;
+    color: #fff;
+}
+
+.high-contrast nav a {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.high-contrast h1,
+.high-contrast h2,
+.high-contrast h3,
+.high-contrast h4,
+.high-contrast h5,
+.high-contrast h6 {
+    color: #000000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 112.5%;
+    color: #000000;
+    background-color: #f2c75c;
+    padding: 0.188em;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0.313em;
+    background: #FFFFFF;
+    border-radius: 0.063em;
+    max-width: 98%;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #0c12c4;
+    text-decoration: underline black;
+
+}
+
+
+header {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0.438em 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-size: 2em;
+    color: #00bfb2;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 1.25em;
+}
+
+header nav ul a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+}
+
+header nav ul a.active {
+    color: #f2c75c;
+    background-color: #1b365d;
+    padding: 0.125em 1.25em;
+    border-radius: 0.713em;
+    box-shadow: 0 0 0.313em rgba(255, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000000;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2,
+h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 1.25em;
+}
+
+@media only screen and (max-width: 48em) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header .logo {
+        margin-bottom: 0.438em;
+    }
+
+    header nav {
+        margin-top: 0.313em;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin-left: 0;
+    }
+}
+
+#space-feedback-form article {
+    font-weight: normal !important;
+}
+
+
+.footer-nasa {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1.25em;
+    width: 100%;
+    border: 0.25em solid black;
+}
+
+.footer-nasa p {
+    margin: 0;
+    text-align: center;
+}
+
+p a,
+span a {
+    text-decoration: underline;
+}
+
+body p,
+body ul,
+body ol,
+body li {
+    text-align: left;
+}
+
+body .justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.jumptocontent {
+    position: absolute;
+    left: -625rem;
+    top: auto;
+    width: 0.063rem;
+    height: 0.063rem;
+    overflow: hidden;
+    color: #fff;
+}
+
+.jumptocontent:focus {
+    position: static;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    color: #fff;
+    background-color: #000;
+    padding: 0.625rem;
+    z-index: 1000;
+    text-align: center;
+    border: 0.063rem solid #fff;
+}

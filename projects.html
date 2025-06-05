@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Szabó Mózes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt - Jövőbeli tervek</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="css/accessibility.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/default.css" />
+    <link rel="stylesheet" type="text/css" href="./css/projects.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/print.css"
+      media="print"
+    />
+
+    <link rel="icon" href="./media/images/icon.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">NASA</div>
+
+      <a href="#content" class="jumptocontent">Ugrás a tartalomra</a>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="history.html">A NASA Története</a></li>
+          <li><a href="inventions.html">Találmányok</a></li>
+          <li><a href="#content" class="active">Jövőbeli Projektek</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="content" class="background-main">
+      <button id="accessibilityButton" onclick="toggleHighContrast()">
+        Nagy betűméret mód
+      </button>
+
+      <section id="intro">
+        <h1>A NASA Következő Lépései</h1>
+      </section>
+
+      <section id="projektek">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="media/images/p1.jpg"
+                alt="Az Artemis küldetésnek a kis űrhajója a Holdon"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="projekt-szoveg">
+                <h3>NASA <span lang="en">Artemis</span></h3>
+                <p>
+                  Az
+                  <strong><span lang="en">Artemis</span></strong> küldetésekkel
+                  a <strong><span lang="en">NASA</span></strong> az
+                  <strong>első nőt</strong> és az
+                  <strong>első színesbőrű embert</strong> juttatja a Holdra, és
+                  innovatív technológiák segítségével minden eddiginél nagyobb
+                  területet fedez fel a Hold felszínén. Együttműködünk majd
+                  kereskedelmi és nemzetközi partnerekkel, és létrehozzuk az
+                  <strong>első hosszú távú jelenlétet</strong> a Holdon. Ezután
+                  a Holdon és a Hold körül szerzett ismereteinket felhasználjuk
+                  a következő óriási lépés megtételéhez: az
+                  <strong>első űrhajósok Marsra küldéséhez</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="media/images/p2.jpg"
+                alt="3D szövetchip"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="projekt-szoveg">
+                <h3>3D szövetchipek</h3>
+                <p>
+                  A <strong>3D-s szövetchipek</strong> körülbelül USB-meghajtó
+                  méretű kis eszközök, amelyek bizonyos szervek -
+                  <strong>szív, hasnyálmirigy, máj</strong> és más szervek -
+                  sejtjeit másolják. Ezek lehetővé teszik a kutatók számára,
+                  hogy teszteljék és megfigyeljék, hogyan reagálnak a sejtek a
+                  különböző környezeti tényezőkre, például a
+                  <strong>sugárzásra</strong> és a
+                  <strong>mikrogravitációra</strong>, valamint a kezelésekre,
+                  beleértve a <strong>gyógyszereket</strong> és a
+                  <strong>kemoterápiát</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                src="media/images/p3.jpg"
+                alt="James Webb űrteleszkóp kint az űrben keringve"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="projekt-szoveg">
+                <h3><span lang="en">James Webb</span> űrteleszkóp</h3>
+                <p>
+                  A
+                  <strong
+                    ><span lang="en">James Webb</span> űrteleszkópot</strong
+                  >
+                  2021-ben indították útjára, és 2022-ben kezdte meg az
+                  adatgyűjtést, ami átformálja a korai világegyetemről alkotott
+                  elképzeléseinket, miközben csodálatos képeket készít a
+                  kozmoszról. Az emberiség évszázadokat töltött a Föld
+                  jellemzőinek feltérképezésével - és gyakran megismételjük a
+                  folyamatot, egyre fejlettebb műszerekkel. Amikor az adatokat
+                  kombináljuk, teljesebb képet kapunk bolygónkról.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="projects-print">
+        <img
+          src="media/images/p1.jpg"
+          alt="Az Artemis küldetésnek a kis űrhajója a Holdon"
+        />
+        <img src="media/images/p2.jpg" alt="3D szövetchip" />
+        <img
+          src="media/images/p3.jpg"
+          alt="James Webb űrteleszkóp kint az űrben keringve"
+        />
+      </div>
+
+      <section id="form">
+        <h2>Jelentkezz, hogy velünk jöhess az űrbe!</h2>
+        <div id="feedback-form-container">
+          <form
+            id="space-feedback-form"
+            action="mailto:kl.szabomozes@gmail.com"
+            name="space_feedback"
+            method="post"
+            enctype="text/plain"
+          >
+            <fieldset>
+              <label for="last-name"><strong>Vezetéknév:</strong></label
+              ><br />
+              <input
+                type="text"
+                id="last-name"
+                name="last_name"
+                size="20"
+                maxlength="40"
+              /><br />
+
+              <label for="first-name"><strong>Keresztnév:</strong></label
+              ><br />
+              <input
+                type="text"
+                id="first-name"
+                name="first_name"
+                size="20"
+                maxlength="40"
+              /><br />
+
+              <label for="email-address"><strong>E-mail cím:</strong></label
+              ><br />
+              <input
+                type="email"
+                id="email-address"
+                name="email_address"
+                size="25"
+                maxlength="100"
+              /><br />
+
+              <label for="feedback-text"
+                ><strong>Miért szeretnél az űrbe utazni?</strong></label
+              ><br />
+              <textarea
+                id="feedback-text"
+                name="feedback"
+                form="space-feedback-form"
+                maxlength="300"
+                placeholder="Írd meg nekünk! (maximum 300 karakter)"
+                rows="4"
+                cols="50"
+              ></textarea
+              ><br />
+
+              <label
+                ><strong>Melyik bolygót látogatnád meg először?</strong></label
+              ><br />
+
+              <input
+                type="radio"
+                id="venus"
+                name="planet"
+                value="Vénusz"
+                required
+              />
+              <label for="venus">Vénusz</label><br />
+              <input type="radio" id="mars" name="planet" value="Mars" />
+              <label for="mars">Mars</label><br />
+              <input type="radio" id="jupiter" name="planet" value="Jupiter" />
+              <label for="jupiter">Jupiter</label><br />
+              <input type="radio" id="uranus" name="planet" value="Uránusz" />
+              <label for="uranus">Uránusz</label><br />
+              <input type="radio" id="mercury" name="planet" value="Merkúr" />
+              <label for="mercury">Merkúr</label><br />
+
+              <label><strong>Mennyit fizetnél maximum?</strong></label
+              ><br />
+
+              <input
+                type="radio"
+                id="price-100000"
+                name="price"
+                value="100 000 Ft"
+                required
+              />
+              <label for="price-100000">100 000 Ft</label><br />
+              <input
+                type="radio"
+                id="price-500000"
+                name="price"
+                value="500 000 Ft"
+              />
+              <label for="price-500000">500 000 Ft</label><br />
+              <input
+                type="radio"
+                id="price-1000000"
+                name="price"
+                value="1 000 000 Ft"
+              />
+              <label for="price-1000000">1 000 000 Ft</label><br />
+
+              <label for="pet-checkbox"
+                ><strong>Vinnél magaddal háziállatot?</strong></label
+              >
+              <input
+                type="checkbox"
+                id="pet-checkbox"
+                name="pet_checkbox"
+                value="True"
+              /><br />
+
+              <input type="reset" value="Alaphelyzetbe állítás" />
+              <input type="submit" value="Elküldés" />
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-nasa">
+      <p>&copy; 2024 NASA. Minden jog fenntartva.</p>
+    </footer>
+  </body>
+</html>
