@@ -8,7 +8,7 @@
 
 --- 
 
-## Weboldal megtekintése
+## Weboldal megtekintése 
 
 Az elkészült weboldalt itt tudod megnézni:  
 👉 [https://szabomozes.github.io/nasa-info-web/](https://szabomozes.github.io/nasa-info-web/)
