@@ -6,7 +6,7 @@
 **Gyakorlatvezető:** Gaál Bence  
 📅 **Befejezés dátuma:** 2024. április
 
----
+--- 
 
 ## Weboldal megtekintése
 
