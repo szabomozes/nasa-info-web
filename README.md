@@ -32,6 +32,6 @@ Ez a projekt a Web-fejlesztés tantárgy 2. féléves nagybeadandója. A munka k
 
 ## Használt technológiák
 
-- HTML5  
-- CSS3 (reszponzív design)  
-- JavaScript (stílusváltoztatás funkció)
+- HTML  
+- CSS 
+- JavaScript
