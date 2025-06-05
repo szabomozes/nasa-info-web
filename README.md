@@ -7,6 +7,13 @@
 
 ---
 
+## Weboldal megtekintése
+
+Az elkészült weboldalt itt tudod megnézni:  
+👉 [https://szabomozes.github.io/nasa-info-web/](https://szabomozes.github.io/nasa-info-web/)
+
+---
+
 ## Projekt leírása
 
 Ez a projekt a Web-fejlesztés tantárgy 2. féléves nagybeadandója. A munka két fő részből állt:
