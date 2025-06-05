@@ -1,10 +1,10 @@
-# 2. félév | Webfejlesztés - nagybeadandó (2023/24/2)
+# 2. félév | Webfejlesztés - nagybeadandó
 
 **Tantárgy:** Web-fejlesztés  
 **Félév:** 2023/24/2 (tavaszi félév)  
 **Előadó:** Dr. Abonyi-Tóth Andor   
 **Gyakorlatvezető:** Gaál Bence  
-
+📅 Készült: 2024. április
 ---
 
 ## Weboldal megtekintése
