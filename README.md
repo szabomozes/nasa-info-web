@@ -1,4 +1,4 @@
-# 2. féléves nagybeadandó – Webfejlesztés (2023/24/2)
+# 2. félév | Webfejlesztés - nagybeadandó (2023/24/2)
 
 **Tantárgy:** Web-fejlesztés  
 **Félév:** 2023/24/2 (második félév)  
