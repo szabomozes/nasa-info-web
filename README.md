@@ -5,6 +5,7 @@
 **Előadó:** Dr. Abonyi-Tóth Andor   
 **Gyakorlatvezető:** Gaál Bence  
 📅 Készült: 2024. április
+
 ---
 
 ## Weboldal megtekintése
