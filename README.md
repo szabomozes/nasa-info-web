@@ -4,7 +4,7 @@
 **Félév:** 2023/24/2 (tavaszi félév)  
 **Előadó:** Dr. Abonyi-Tóth Andor   
 **Gyakorlatvezető:** Gaál Bence  
-📅 Készült: 2024. április
+📅 **Befejezés dátuma:** 2024. április
 
 ---
 
