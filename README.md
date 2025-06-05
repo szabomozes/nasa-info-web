@@ -2,7 +2,7 @@
 
 **Tantárgy:** Web-fejlesztés  
 **Félév:** 2023/24/2 (második félév)  
-**Előadó:** Abonyi-Tóth Andor Dr.  
+**Előadó:** Dr. Abonyi-Tóth Andor   
 **Gyakorlatvezető:** Gaál Bence  
 
 ---
